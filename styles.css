@@ -1,0 +1,62 @@
+* {
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Basic CSS - first section */
+
+
+.first,
+.footer {  /* added footer background here */
+    background-color: #1F2937;
+}
+
+header {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondary,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+}
+
+img {
+    width: auto;
+    height: 300px;
+}
