@@ -16,10 +16,9 @@ body {
 }
 
 
-/* Basic CSS - first section */
+/* First section - Basic CSS */
 
-
-.first,
+.container,
 .footer {  /* added footer background here */
     background-color: #1F2937;
 }
@@ -60,3 +59,43 @@ img {
     width: auto;
     height: 300px;
 }
+
+/* Section 1.1 - CSS Flexbox */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* Section 1.2 - CSS Flexbox */
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+
+
+.secondary {
+    padding-bottom: 10px;
+}
+
+button {
+    padding: 5px 30px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+
