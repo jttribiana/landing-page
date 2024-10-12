@@ -62,6 +62,10 @@ img {
 
 /* Section 1.1 - CSS Flexbox */
 
+/* issues to solve
+1. the white background when the image overlaps
+2. the content should only occupy portion of the screen and always get centered*/
+
 header {
     display: flex;
     align-items: center;
@@ -77,6 +81,9 @@ ul {
 
 /* Section 1.2 - CSS Flexbox */
 
+/* issues to solve
+1. the white background when the image overlaps*/
+
 .second {
     display: flex;
     align-items: center;
@@ -84,8 +91,6 @@ ul {
     padding: 20px;
 
 }
-
-
 
 .secondary {
     padding-bottom: 10px;
@@ -98,4 +103,85 @@ button {
     font-weight: 600;
 }
 
+/* Section 2 */
 
+.information-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+
+.information-secondary-text {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image {
+    height: 150px;
+    width: auto;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.q {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.author {
+    color: #1F2937;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* CTA Section */
+
+.cta-container {
+    padding: 50px;
+}
+.cta-box {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.cta-text {
+    color: white;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    color: white;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
