@@ -180,8 +180,9 @@ footer {
     color: white;
 }
 
-.container-1 {
+.flex-section {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    align-items:;
+    flex: 1;
 }
